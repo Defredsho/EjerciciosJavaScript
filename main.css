@@ -1,0 +1,41 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.header {
+
+    width: 100%;
+    text-align: center;
+    background: cadetblue;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem;
+    min-width: 250px;
+    max-width: 250px;
+    margin: 5px;
+
+    text-align: center;
+    border-radius: 5px;
+    background: darkgoldenrod;
+
+}
+
+.button{
+    background: aquamarine;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: .5rem 1rem;
+
+
+}
